@@ -1,0 +1,50 @@
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body {
+  height:100vh;
+display: grid;
+    place-items: center;
+transition:1s ease;
+}
+    
+  .mode {
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6rem;
+    height: 2.8rem;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    box-sizing: border-box;
+   transform: scale(1.6);
+    position: relative;
+
+  }
+  .mode-sun {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url("https://img.icons8.com/color/2x/sun-star.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .mode-moon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url("https://img.icons8.com/parakeet/2x/bright-moon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .mode-ball {
+    position: absolute;
+    width: 2.52rem;
+    height: 2.52rem;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    left: 1rem;
+  }
